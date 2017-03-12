@@ -34,8 +34,13 @@ html, body {
   background-position: center;
   text-align: center;
 }
+
 #notifier {
   opacity: 0.8;
+}
+
+#banner2 {
+  background-color: black;
 }
 @media (max-width: 575px){
     #banner1 {
