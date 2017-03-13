@@ -26,7 +26,12 @@ html, body {
     letter-spacing: 1rem;
     text-transform: uppercase;
 }
-
+.title {
+    padding-top: 14rem;
+}
+.mobiletitle {
+  font-size: 0;
+}
 .topic {
     font-family: 'cwTeXHei', sans-serif;
     font-size: 1.6rem;
@@ -79,20 +84,21 @@ html, body {
 
 #background2 {
     width: 100%;
-    background-image: url("../image/bg6.jpg");
+    background-image: url("../image/bgg0.jpg");
     opacity: 0.85;
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
-    background-position: left;
+
 }
 
 #section1 {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 0.5rem;
-    padding: 2rem;
+
 }
 
-#footer {
+footer {
   opacity: 0.8;
   color: white;
   font-weight: bold;
@@ -134,5 +140,17 @@ html, body {
     .backgroundtext {
         font-size: 1.2rem;
         text-shadow: 0.03rem 0.03rem black;
+    }
+    .title {
+      padding-top: 5rem;
+    }
+    .mobiletitle {
+      font-size: 2.5rem;
+      letter-spacing: 0.2rem;
+      text-transform: uppercase;
+    }
+    footer {
+      font-size: 0.4rem;
+      letter-spacing: 0.2rem;
     }
 }
