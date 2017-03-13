@@ -5,18 +5,13 @@ html, body {
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
+  letter-spacing: 0.2rem;
+  font-weight: bolder;
+
 }
-.backgroundtext0 {
-  font-family: 'Amatic SC', cursive;
-  text-shadow: 0.1rem 0.1rem black;
-  font-size: 8rem;
-  font-weight: 900;
-}
-.backgroundtext1 {
-  color: white;
-}
-.backgroundtext2 {
+
+.backgroundtext {
   font-size: 2rem;
   letter-spacing: 0.2rem;
   opacity: 0.8;
@@ -28,15 +23,21 @@ html, body {
 #banner1 {
   height: 100%;
   background-size: cover;
-  background-image: url("../image/bg5.jpg");
-  opacity: 0.85;
+  background-image: url("../image/bg4.jpg");
   background-attachment: fixed;
   background-position: center;
   text-align: center;
 }
-
+#navbar {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-left: 2rem;
+  background-color: rgba(255, 0, 0, 0);
+}
 #notifier {
-  opacity: 0.8;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  opacity: 0.7;
 }
 
 #banner2 {
@@ -46,11 +47,14 @@ html, body {
     #banner1 {
         background-attachment: scroll;
     }
-    .backgroundtext0 {
-      font-size: 5rem;
+    #navbar {
+      background-color: rgba(255, 255, 255, 0.7);
     }
-    .backgroundtext2 {
-      font-size: 2rem;
+    #notifier {
+      letter-spacing: 0;
+    }
+    .backgroundtext {
+      font-size: 1.2rem;
     }
 }
 
