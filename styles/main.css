@@ -27,7 +27,7 @@ html, body {
     text-transform: uppercase;
 }
 .title {
-    padding-top: 14rem;
+    padding-top: 18rem;
 }
 .mobiletitle {
   font-size: 0;
@@ -93,7 +93,7 @@ html, body {
 }
 
 #section1 {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 0.5rem;
 
 }
