@@ -1,13 +1,14 @@
 html, body {
     width: 100%;
     height: 100%;
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Play', sans-serif;
 }
 
 .logo {
-    font-size: 1.7rem;
-    letter-spacing: 0.2rem;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
     font-weight: bolder;
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 .backgroundtext {
@@ -25,12 +26,21 @@ html, body {
     font-weight: 900;
     letter-spacing: 1rem;
     text-transform: uppercase;
+    font-family: 'Play', sans-serif;
 }
 .title {
-    padding-top: 18rem;
+    padding-top: 6rem;
 }
 .mobiletitle {
   font-size: 0;
+  letter-spacing: 0.8rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.secondtitle {
+    letter-spacing: 0.3rem;
+    font-family: 'Play', sans-serif;
+
 }
 .topic {
     font-family: 'cwTeXHei', sans-serif;
@@ -43,18 +53,21 @@ html, body {
 .content {
     font-family: 'cwTeXHei', sans-serif;
     padding-bottom: 1rem;
-    font-weight: bold;
+
 }
 
 .container {
     height: 100%;
 }
+.nav {
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
 
+}
 #banner {
     height: 100%;
     background-size: cover;
-    background-image: url("../image/bg.jpg");
-    background-attachment: fixed;
+    background-image: url("../image/test_jpg.jpg");
     background-position: center;
     text-align: center;
 }
@@ -84,25 +97,28 @@ html, body {
 
 #background2 {
     width: 100%;
-    background-image: url("../image/bgg0.jpg");
+    background-image: url("../image/test_1.jpg");
     opacity: 0.85;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+
 
 }
 
 #section1 {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 0.5rem;
+    border: 0.15rem solid lightgray;
 
 }
 
+
 footer {
-  opacity: 0.8;
-  color: white;
+  opacity: 0.5;
+  color: gray;
   font-weight: bold;
-  letter-spacing: 0.4rem;
+  letter-spacing: 0.2rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
 }
 
@@ -123,6 +139,15 @@ footer {
     #traveler {
       font-size: 1rem;
     }
+    #F {
+      font-size: 3rem;
+      font-weight: bolder;
+
+    }
+    #banner-fg {
+      height: 75%;
+    }
+
     .navbar-offset {
         padding-bottom: 1.5rem;
         font-size: 3rem;
@@ -144,13 +169,16 @@ footer {
     .title {
       padding-top: 5rem;
     }
-    .mobiletitle {
-      font-size: 2.5rem;
+    .secondtitle {
+      font-size: 1rem;
       letter-spacing: 0.2rem;
-      text-transform: uppercase;
     }
+    .mobiletitle {
+      font-size: 1.5rem;
+    }
+
     footer {
-      font-size: 0.4rem;
+      font-size: 0.2rem;
       letter-spacing: 0.2rem;
     }
 }
