@@ -2,6 +2,7 @@ html, body {
     width: 100%;
     height: 100%;
     font-family: 'Play', sans-serif;
+    position: relative;
 }
 
 .logo {
@@ -28,20 +29,23 @@ html, body {
     text-transform: uppercase;
     font-family: 'Play', sans-serif;
 }
+
 .title {
     padding-top: 6rem;
 }
+
 .mobiletitle {
-  font-size: 0;
-  letter-spacing: 0.8rem;
-  text-transform: uppercase;
-  font-weight: bolder;
+    font-size: 0;
+    letter-spacing: 0.8rem;
+    text-transform: uppercase;
+    font-weight: bolder;
 }
+
 .secondtitle {
     letter-spacing: 0.3rem;
     font-family: 'Play', sans-serif;
-
 }
+
 .topic {
     font-family: 'cwTeXHei', sans-serif;
     font-size: 1.6rem;
@@ -53,21 +57,23 @@ html, body {
 .content {
     font-family: 'cwTeXHei', sans-serif;
     padding-bottom: 1rem;
-
 }
 
 .container {
     height: 100%;
 }
-.nav {
-  font-size: 1.2rem;
-  letter-spacing: 0.2rem;
 
+.nav {
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
 }
+
 #banner {
     height: 100%;
+    width: 100%;
     background-size: cover;
-    background-image: url("../image/test_jpg.jpg");
+    background-repeat:no-repeat;
+    background-image: url("../image/main-bg.jpg");
     background-position: center;
     text-align: center;
 }
@@ -75,13 +81,12 @@ html, body {
 #navbar {
     font-size: 1.2rem;
     font-weight: bold;
-    background-color: rgba(255, 0, 0, 0);
+    background-color: rgba(0,0,0,0.9);
 }
 
 #subscribe {
     font-weight: bolder;
     letter-spacing: 0.2rem;
-    opacity: 0.95;
     font-size: 1.3rem;
 }
 
@@ -95,57 +100,116 @@ html, body {
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
-#background2 {
-    width: 100%;
-    background-image: url("../image/test_1.jpg");
-    opacity: 0.85;
-    background-size: cover;
-    background-position: center;
-
-
-}
-
 #section1 {
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 0.5rem;
     border: 0.15rem solid lightgray;
-
+}
+#paragraph2{
+    height: 120%;
+    width:  100%;
+    background-image: url("../image/dl-2.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: bottom;
 }
 
+#highlight {
+    height: 50%;
+    width: 90%;
+    margin-top:7rem;
+}
+#detail{
+
+}
+#cta{
+    height: 150%;
+    width:  100%;
+    background-image: url("../image/footer.jpg");
+    background-position:bottom;
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 0.5rem;
+    font-family: 'Play', sans-serif;
+   
+}
+
+#email{
+    font-family: 'Play', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+    font-size: 1rem;
+}
 
 footer {
-  opacity: 0.5;
-  color: gray;
-  font-weight: bold;
-  letter-spacing: 0.2rem;
-  font-size: 0.7rem;
-  text-transform: uppercase;
+    opacity: 0.5;
+    color: gray;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    font-size: 0.7rem;
 }
+
+#fb{
+    width: 50%;
+}
+.img {
+    border-radius:50%;
+    position:relative;
+    opacity:0.4;
+}
+.img:hover{
+    animation-iteration-count: infinite;
+    animation-name: example;
+    animation-duration: 0.8s;
+}
+@keyframes example {
+    0%   {bottom:0px;}
+    25%  {bottom:15px;}
+    25%  {bottom:0px;}
+    50%  {bottom:10px;}
+    70%  {bottom:0px;}
+    85%  {bottom:5px;}
+    100% {bottom:0px;}
+}
+#footer2{
+    height:1rem;
+    background-color:black;
+}
+
 
 @media (max-width: 575px) {
     #banner {
-      background-attachment: scroll;
+        background-attachment: scroll;
     }
+
     #subscribe {
         font-size: 1rem;
         letter-spacing: 0.1rem;
     }
-    #navbar {
-        background-color: rgba(255, 255, 255, 0.95);
-    }
-    #background2 {
-      background-attachment: scroll;
-    }
-    #traveler {
-      font-size: 1rem;
-    }
-    #F {
-      font-size: 3rem;
-      font-weight: bolder;
 
+    #navbar {
+        background-color: black;
     }
+
+    #background2 {
+        background-attachment: scroll;
+    }
+
+    #traveler {
+        font-size: 1rem;
+    }
+
+    #F {
+        font-size: 3rem;
+        font-weight: bolder;
+    }
+
     #banner-fg {
-      height: 75%;
+        height: 75%;
     }
 
     .navbar-offset {
@@ -153,32 +217,38 @@ footer {
         font-size: 3rem;
         letter-spacing: 0.5rem;
     }
+
     .content {
         padding-bottom: 0.5rem;
         font-size: 0.8rem;
     }
+
     .topic {
         font-size: 1rem;
         letter-spacing: 0;
         padding-top: 0.5rem;
     }
+
     .backgroundtext {
         font-size: 1.2rem;
         text-shadow: 0.03rem 0.03rem black;
     }
+
     .title {
-      padding-top: 5rem;
+        padding-top: 5rem;
     }
+
     .secondtitle {
-      font-size: 1rem;
-      letter-spacing: 0.2rem;
+        font-size: 1rem;
+        letter-spacing: 0.2rem;
     }
+
     .mobiletitle {
-      font-size: 1.5rem;
+        font-size: 1.5rem;
     }
 
     footer {
-      font-size: 0.2rem;
-      letter-spacing: 0.2rem;
+        font-size: 0.2rem;
+        letter-spacing: 0.2rem;
     }
 }
