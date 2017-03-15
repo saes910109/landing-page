@@ -72,7 +72,7 @@ html, body {
 #banner {
     height: 100%;
     background-size: cover;
-    background-image: url("../image/0bg.jpg");
+    background-image: url("../image/bg1_2.jpg");
     background-position: center;
     text-align: center;
 }
@@ -107,7 +107,12 @@ html, body {
     background-position: center;
     z-index:-1;
 }
-
+#background3 {
+  width: 100%;
+  background-image: url("../image/bg3_1.jpg");
+  background-size: cover;
+  background-position: center;
+}
 #section1 {
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 0.5rem;
@@ -144,9 +149,6 @@ footer {
         background-color: black;
     }
 
-    #background2 {
-        background-attachment: scroll;
-    }
 
     #traveler {
         font-size: 1rem;
