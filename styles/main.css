@@ -38,6 +38,7 @@ html, body {
     font-size: 0;
     letter-spacing: 0.8rem;
     text-transform: uppercase;
+    text-align: center;
     font-weight: bolder;
 }
 
@@ -67,6 +68,7 @@ html, body {
     font-size: 1.2rem;
     letter-spacing: 0.2rem;
 }
+
 
 #banner {
     height: 100%;
@@ -108,7 +110,7 @@ html, body {
 #paragraph2{
     height: 120%;
     width:  100%;
-    background-image: url("../image/dl-2.jpg");
+    background-image: url("../image/bg2.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     background-position: bottom;
@@ -118,24 +120,25 @@ html, body {
     height: 50%;
     width: 90%;
     margin-top:7rem;
+
+
 }
 #detail{
 
 }
 #cta{
-    height: 150%;
+    height: 170%;
     width:  100%;
     background-image: url("../image/footer.jpg");
     background-position:bottom;
     background-size:cover;
-    background-repeat:no-repeat;
     padding-top: 3rem;
     padding-bottom: 1.5rem;
     font-size: 2rem;
     font-weight: 900;
     letter-spacing: 0.5rem;
     font-family: 'Play', sans-serif;
-   
+
 }
 
 #email{
@@ -146,11 +149,12 @@ html, body {
 }
 
 footer {
-    opacity: 0.5;
-    color: gray;
+    opacity: 0.8;
+    color: lightgray;
     font-weight: bold;
     letter-spacing: 0.2rem;
     font-size: 0.7rem;
+    text-shadow: 0.02rem 0.02rem 0.02rem white;
 }
 
 #fb{
@@ -159,7 +163,7 @@ footer {
 .img {
     border-radius:50%;
     position:relative;
-    opacity:0.4;
+    opacity:0.9;
 }
 .img:hover{
     animation-iteration-count: infinite;
@@ -176,12 +180,14 @@ footer {
     100% {bottom:0px;}
 }
 #footer2{
-    height:1rem;
-    background-color:black;
+    height:1.1rem;
+    background-color: black;
+
 }
 
 
 @media (max-width: 575px) {
+
     #banner {
         background-attachment: scroll;
     }
@@ -246,9 +252,14 @@ footer {
     .mobiletitle {
         font-size: 1.5rem;
     }
+    .img {
+      width: 2.5rem;
+      height: 2.5rem;
 
+    }
     footer {
-        font-size: 0.2rem;
-        letter-spacing: 0.2rem;
+        font-size: 0.15rem;
+        letter-spacing: 0.05rem;
+        font-weight: lighter;
     }
 }
