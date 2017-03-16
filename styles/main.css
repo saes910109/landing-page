@@ -158,21 +158,24 @@ html, body {
 #detail1 {
     background-image: url("../image/bg3.jpg");
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
+    width: 170%;
     background-repeat: no-repeat;
 }
 
 #detail2 {
     background-image: url("../image/bg4.jpg");
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
+    width: 170%;
     background-repeat: no-repeat;
 }
 
 #conclude {
     background-image: url("../image/bg5.jpg");
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
+    width: 170%;
     background-repeat: no-repeat;
 }
 
@@ -304,6 +307,7 @@ footer {
     footer {
         font-size: 0.2rem;
         letter-spacing: 0.2rem;
+
     }
     #footer2 {
         height: 0;
