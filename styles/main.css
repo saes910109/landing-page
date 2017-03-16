@@ -308,4 +308,13 @@ footer {
     #footer2 {
         height: 0;
     }
+    #detail1 {
+      background-size: cover;
+    }
+    #detail2 {
+      background-size: cover;
+    }
+    #conclude {
+        background-size: cover;
+    }
 }
