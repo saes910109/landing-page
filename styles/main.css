@@ -159,7 +159,6 @@ html, body {
     background-image: url("../image/bg3.jpg");
     background-position: center;
     background-size: cover;
-    width: 170%;
     background-repeat: no-repeat;
 }
 
@@ -167,7 +166,6 @@ html, body {
     background-image: url("../image/bg4.jpg");
     background-position: center;
     background-size: cover;
-    width: 170%;
     background-repeat: no-repeat;
 }
 
@@ -175,7 +173,6 @@ html, body {
     background-image: url("../image/bg5.jpg");
     background-position: center;
     background-size: cover;
-    width: 170%;
     background-repeat: no-repeat;
 }
 
